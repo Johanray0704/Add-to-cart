@@ -1,0 +1,28 @@
+*{
+	color:#ffff;
+}
+body { 
+	color:aliceblue;
+	font-family: "Helvetica Neue", sans-serif; 
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/bgimage.jpg') no-repeat center center fixed; 
+	background-size: cover; 
+}
+
+#orderTotal{
+	margin-right: 16px;
+	text-align: right;
+}
+#itemCounter{
+	position: absolute;
+	right: 105px;
+	top: 0px;
+}
+#basketImage{
+	position: absolute;
+	top: 16px;
+	right: 56px;
+}
+.product{
+	display: inline-block;
+	margin: 55px;
+}
